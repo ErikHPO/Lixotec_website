@@ -5044,6 +5044,7 @@ fieldset:disabled .btn {
 .card-img-top {
   border-top-left-radius: calc(0.7rem - 1px);
   border-top-right-radius: calc(0.7rem - 1px);
+  max-width: fit-content;
 }
 
 .card-img,

@@ -16,9 +16,7 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.png">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
@@ -40,7 +38,7 @@
     <!-- ===============================================-->
     <main class="main" id="top">
       <nav class="navbar navbar-expand-lg navbar-light sticky-top" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/lixoteclogo_horizontal.webp" height="100rem" alt="logo" /></a>
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/logo-horizontal.webp" height="70rem" alt="logo" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
@@ -233,9 +231,9 @@
 
         <div class="container">
           <h1 class="fw-bold fs-6 mb-3">LIXOTEC na mídia</h1>
-          <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card"><img class="card-img-top d-none d-lg-block" src="assets/img/marketing/lixoteclogo_vertical.webp" alt="Lixotec logo"/>
+          <div class="row justify-content-between">
+            <div class="col-md-3 mb-4">
+              <div class="card"><img class="card-img-top d-none d-sm-none d-lg-block" src="assets/img/marketing/logo-vertical.webp" alt="Lixotec logo"/>
                 <div class="card-body ps-0">
                   <p class="text-secondary"><span class="ms-1"> 30/10/2021</span></p>
                   <a href="https://foz.portaldacidade.com/index.php/noticias/cidade/lixo-eletronico-e-recolhido-de-forma-gratuita-por-entidades-de-foz-do-iguacu-1308">
@@ -244,8 +242,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-4">
-              <div class="card"><img class="card-img-top d-sm-none d-lg-block" src="assets/img/marketing/lixoteclogo_vertical.webp" alt="Lixotec logo" />
+            <div class="col-md-3 mb-4">
+              <div class="card"><img class="card-img-top d-none d-sm-none d-lg-block" src="assets/img/marketing/logo-vertical.webp" alt="Lixotec logo" />
                 <div class="card-body ps-0">
                   <span class="ms-1">08/10/2020</span></p>
                   <a href="https://www.h2foz.com.br/meio-ambiente/campanha-em-foz-do-iguacu-ja-arrecadou-4-toneladas-de-lixo-eletronico/">
@@ -255,8 +253,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-4">
-              <div class="card"><img class="card-img-top d-sm-none d-lg-block" src="assets/img/marketing/lixoteclogo_vertical.webp" alt="Lixotec logo" />
+            <div class="col-md-3 mb-4">
+              <div class="card"><img class="card-img-top d-none d-sm-none d-lg-block" src="assets/img/marketing/logo-vertical.webp" alt="Lixotec logo" />
                 <div class="card-body ps-0">
                   <p class="text-secondary"><span class="ms-1">19/06/2020</span></p>
                   <a href="https://100fronteiras.com/foz-do-iguacu/noticia/veja-onde-e-possivel-fazer-o-descarte-de-lixo-eletronico-em-foz-do-iguacu/">
@@ -326,9 +324,6 @@
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
-
-
-
       <!-- ============================================-->
       <!-- <section> begin ============================-->
       <section class="text-center py-0">
@@ -337,7 +332,13 @@
           <div class="container border-top py-3">
             <div class="row justify-content-between">
               <div class="col-12 col-md-auto mb-1 mb-md-0">
-                <p class="mb-0">&copy; 2022 Lixotec </p>
+                <p class="mb-0">&copy; 
+                  <!-- add current year -->
+                  <script>
+                    document.write(new Date().getFullYear())
+                  </script>
+                  Lixotec
+                   </p>
               </div>
               <div class="col-12 col-md-auto">
                 <p class="mb-0">
@@ -370,15 +371,15 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="vendors/fontawesome/all.min.js"></script>
     <script src="assets/js/theme.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157554265-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZB4RY1BYZX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-		gtag('config', 'UA-157554265-1');
-	</script>
+  gtag('config', 'G-ZB4RY1BYZX');
+</script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
   </body>
